@@ -37,9 +37,9 @@ Save the file after editing.
 python -m src.app
 ```
 
-#### **Option 3: Run via PowerShell (Windows)**
+#### **Option 2: Run via PowerShell (Windows)**
 ```powershell
-Set-ExecutionPolicy Unrestricted -Scope Process
+Set-ExecutionPo2licy Unrestricted -Scope Process
 .\run.sh
 ```
 
