@@ -1,0 +1,21 @@
+providers:
+  - name: "LLaMA"
+    api_url: "https://api.llama.com/generate"
+    api_key: "${LLAMA_API_KEY}"
+    cost_per_1k_tokens: 0.002
+    timeout: 10
+    priority: 1
+
+  - name: "OpenRouter"
+    api_url: "https://openrouter.ai/api/generate"
+    api_key: "${OPENROUTER_API_KEY}"
+    cost_per_1k_tokens: 0.004
+    timeout: 10
+    priority: 2
+
+  - name: "HuggingFace"
+    api_url: "https://api-inference.huggingface.co/models/gpt2"
+    api_key: "${HUGGINGFACE_API_KEY}"
+    cost_per_1k_tokens: 0.003
+    timeout: 15
+    priority: 3
