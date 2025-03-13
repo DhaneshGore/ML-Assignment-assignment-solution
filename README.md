@@ -23,13 +23,9 @@ Before running the application, create a **`.env` file** and add your API keys:
 nano .env  # Or use Notepad on Windows
 ```
 Inside `.env`, enter:
-```
+
 ![image](https://github.com/user-attachments/assets/e313eca8-78d1-4b1f-9f1c-3d841aee3516)
 
-
-LLAMA_API_KEY=your_llama_api_key
-OPENROUTER_API_KEY=your_openrouter_api_key
-HUGGINGFACE_API_KEY=your_huggingface_api_key
 ```
 Save the file after editing.
 
