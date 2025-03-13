@@ -57,6 +57,8 @@ Set-ExecutionPo2licy Unrestricted -Scope Process
     "tokens": 1200,
     "response": "AI stands for Artificial Intelligence..."
 }
+```
+
 
 ## Checking Logs:
 All API requests are logged in `logs/requests.csv`.
