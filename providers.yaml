@@ -1,0 +1,21 @@
+providers:
+  - name: "Hugging Face GPT-2"
+    endpoint: "https://api-inference.huggingface.co/models/gpt2"
+    api_key: "your-huggingface-api-key" # Replace with your actual Hugging Face API key
+    cost_per_1k_tokens: 0.01
+    token_usage_reporting: true
+    priority: 1
+
+  - name: "OpenRouter GPT-3"
+    endpoint: "https://api.openrouter.ai/models/gpt-3" # Replace with the actual endpoint for OpenRouter
+    api_key: "your-openrouter-api-key" # Replace with your OpenRouter API key
+    cost_per_1k_tokens: 0.01
+    token_usage_reporting: true
+    priority: 2
+
+  - name: "Hugging Face LLaMA"
+    endpoint: "https://api-inference.huggingface.co/models/facebook/llama-7b" # Replace with the actual LLaMA model endpoint
+    api_key: "your-huggingface-api-key" # Replace with your actual Hugging Face API key
+    cost_per_1k_tokens: 0.01
+    token_usage_reporting: true
+    priority: 3
