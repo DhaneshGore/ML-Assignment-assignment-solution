@@ -1,9 +1,16 @@
-# Hugging Face LLaMA Gateway
+# MultiLLM Cost-Optimized API 
 
 This is a Flask-based microservice to access the Hugging Face LLaMA model.
 
 ## Installation
-
+1. Create a virtual environment (optional, but recommended) to isolate dependencies:
+    ```bash
+    python -m venv venv
+    ```
+Activate the virtual environment: 
+    ```bash
+   venv\Scripts\activate
+    ```
 
 2. Install dependencies:
     ```bash
@@ -43,7 +50,7 @@ Copy http://127.0.0.1:5000
 
 ## API
 
-## Next open postman and paste the url http://127.0.0.1:5000/generate
+## Next open postman and paste the url http://127.0.0.1:5000/generate # in this '/generate' in last add. 
 ## In the "Body" tab, select raw and choose JSON from the dropdown
 ![image](https://github.com/user-attachments/assets/8fc55936-318a-4cfe-98bf-586984bb3d47)
 
