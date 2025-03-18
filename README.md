@@ -32,7 +32,11 @@ ImportError: cannot import name 'url_quote' from 'werkzeug.urls' (G:\Totem\venv\
     pip install --upgrade flask werkzeug
     ```
 
-4. Run the service:
+4. Check and past your API key 'providers.yaml'
+![image](https://github.com/user-attachments/assets/221de133-4950-4b22-a61d-799e433f4f1e)
+
+
+5. Run the service:
     ```bash
     python app.py
     ```
